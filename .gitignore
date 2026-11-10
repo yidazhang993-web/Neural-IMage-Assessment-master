@@ -1,1 +1,39 @@
-./data/
+# ===== 数据集与图片 =====
+data/
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# ===== 虚拟环境 =====
+.venv/
+venv/
+env/
+
+# ===== 预训练权重 / 模型文件 =====
+weights/
+ckpts/
+*.pth
+*.pt
+*.ckpt
+*.onnx
+*.safetensors
+
+# ===== 训练与推理产物 =====
+snapshots/
+predictions/
+runs/
+logs/
+results/
+*_results.csv
+
+# ===== 视频评分中间帧 =====
+frames/
+
+# ===== 编辑器与系统文件 =====
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
