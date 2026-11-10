@@ -1,1 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+*.egg
+dist/
+build/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# PyTorch / model weights
+*.pth
+*.pt
+*.ckpt
+weights/
+checkpoints/
+snapshots/
+
+# Dataset
+data/
 ./data/
+images/
+datasets/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Logs & temp
+*.log
+*.tmp
+*.bak
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Test artifacts (可按需保留)
+# test.jpg
+# test_labels.csv
+# predictions/
