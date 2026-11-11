@@ -1,6 +1,6 @@
 # ===== 数据集与图片 =====
 data/
-
+test_images/
 # ===== Python =====
 __pycache__/
 *.py[cod]
